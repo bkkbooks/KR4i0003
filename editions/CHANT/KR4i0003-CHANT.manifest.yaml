@@ -1,0 +1,58 @@
+canonical_identifier: bkk:krp/KR4i0003/CHANT/v1
+canonical_location: https://kanripo.org/bkk/KR4i0003/CHANT/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 詩品三卷
+  identifiers:
+    krp: KR4i0003
+  tags:
+    tls-dates: dat04500
+    kr-categories: KR4i
+  source:
+    repository: tls-texts
+    path: data/tls/KR4i0003.xml
+  edition:
+    short: CHANT
+assets:
+  parts:
+  - {seq: 1, filename: KR4i0003_001-CHANT.yaml, hash: 'sha256:731333d181e9f0332fb9c2b1dbfc55e81762a9ed0934b725f55c68262e05394d'}
+  - {seq: 2, filename: KR4i0003_002-CHANT.yaml, hash: 'sha256:7905b50923e9e70bafff8e01370e651fd53dc5baece83b34037e20b778104a43'}
+  - {seq: 3, filename: KR4i0003_003-CHANT.yaml, hash: 'sha256:9a47bea35c5628dedefee4273ba523524d1b35bcc876cadae511a76af017e537'}
+  markers:
+  - {seq: 1, role: markers, filename: assets/KR4i0003_001-CHANT.markers.yaml, hash: 'sha256:8a302a4aef10e45c64c2f64483496a571833b4fb070de2e6f8e43ccf4f30e78f'}
+  - {seq: 2, role: markers, filename: assets/KR4i0003_002-CHANT.markers.yaml, hash: 'sha256:1c4e10c68393b80d2b50118b0289f6c4f2a20446b250cd55f4b50709061a22d0'}
+  - {seq: 3, role: markers, filename: assets/KR4i0003_003-CHANT.markers.yaml, hash: 'sha256:232ff4000641930d922e6ee3a8894a72ce880f3b547673bbf5517c52dd4ad4a9'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: KR4i0003_CHANT_001-1a.1-h
+    span:
+    - body
+    - 0
+    - 1962
+  label: 卷上
+  type: section
+  level: 1
+- ref:
+    seq: 2
+    marker_id: KR4i0003_CHANT_002-1a.1-h
+    span:
+    - body
+    - 0
+    - 1886
+  label: 卷中
+  type: section
+  level: 1
+- ref:
+    seq: 3
+    marker_id: KR4i0003_CHANT_003-1a.1-h
+    span:
+    - body
+    - 0
+    - 1746
+  label: 卷下
+  type: section
+  level: 1
+hash: sha256:d3285221b8c173681f460a172851be505343bce293a21d44b7d4215946e0ae8f
